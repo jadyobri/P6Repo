@@ -1,0 +1,20 @@
+# This ensures that everything that should be stored locally
+# not make its way into the repository. 
+# The test, train, virtual environment, pycache, and
+# kaggle, and results directories should be handled locally.
+
+**/.DS_Store
+
+P6/src/kaggle
+
+P6/src/test
+
+P6/src/train
+
+P6/src/venv
+
+P6/src/__pycache__/
+
+P6/src/models/__pycache__/
+
+P6/src/results
