@@ -1,6 +1,17 @@
 # P6Repo
+## 1) Download Required Images
+**NEEDS TO BE DONE LOCALLY**  
 
-## Creating Virtual Environment
+Run the bash script to download and setup the image directories.
+```
+chmod +x images.sh  
+bash images.sh
+```
+Then, run the following to export the first 5000 elements of the target categories as specified.
+```
+python3 P6/src/export_dataset.py
+```
+## 2) Creating Virtual Environment
 Make sure you have [`pip`](https://packaging.python.org/en/latest/tutorials/installing-packages/) installed (should already have).
 
 Run the command in the repo directory to create the virtual environment `venv`.
@@ -13,7 +24,11 @@ in the `requirements.txt` file.
 
 Then, run the following to start the virtual environment.
 ```
-source venv/bin/activate
+## Mac / Unix:
+source venv/bin/activate 
+
+## Windows
+source venv/Scripts/activate
 ```
 Next, run the following to install all of the needed packages for the assignment:
 ```
