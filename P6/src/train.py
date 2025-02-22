@@ -45,7 +45,8 @@ if __name__ == "__main__":
     # plot_history(history)
     # 
     # Your code should change the number of epochs
-    epochs = 5
+    epochs = 25
+
     print('* Data preprocessing')
     train_dataset, validation_dataset, test_dataset = get_datasets()
     name = 'basic_model'

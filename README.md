@@ -37,6 +37,3 @@ python3 -m pip install -r requirements.txt
 Make sure you have sufficient storage for these packages and the images.  
 
 Exit the virtual enviroment using the `deactivate` command.
-
-## Initial Network
-![Graph](P6/assets/graph.png "Initial Network")
